@@ -120,7 +120,9 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     )
-                k = await message.reply_text("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>30 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+                k = await message.reply_text("<b><u>📁 𝗪𝗮𝗿𝗻𝗶𝗻𝗴 ⚠️</u></b>\n\nPlease note that this movie file will be deleted in 5 minutes to avoid Copyright. To keep it, forward it to a friend or save it to your personal space.
+<b><u>5 mins</u> 🗑<i></b>
+📁 അറിയിപ്പ് ⚠️</i>.\n\n<b><i>അയച്ച ഫയലുകൾ കോപ്പി റൈറ്റ് ഒഴിവാക്കാൻ വേണ്ടി 5 മിനിറ്റിനു ശേഷം ഡിലീറ്റ് ചെയ്യുന്നതാണ്. അതുകൊണ്ട് ഫയൽ സേവ്ഡ് മെസ്സേജ്സിലേക്ക് മാറ്റേണ്ടതാണ്</i></b>")
                 await asyncio.sleep(1800)
                 await m.delete()
                 await k.edit("<b>Your File/Video is successfully deleted!!!</b>")
@@ -134,7 +136,9 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     )
-                k = await message.reply_text("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>30 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+                k = await message.reply_text(""<b><u>📁 𝗪𝗮𝗿𝗻𝗶𝗻𝗴 ⚠️</u></b>\n\nPlease note that this movie file will be deleted in 5 minutes to avoid Copyright. To keep it, forward it to a friend or save it to your personal space.
+<b><u>5 mins</u> 🗑<i></b>
+📁 അറിയിപ്പ് ⚠️</i>.\n\n<b><i>അയച്ച ഫയലുകൾ കോപ്പി റൈറ്റ് ഒഴിവാക്കാൻ വേണ്ടി 5 മിനിറ്റിനു ശേഷം ഡിലീറ്റ് ചെയ്യുന്നതാണ്. അതുകൊണ്ട് ഫയൽ സേവ്ഡ് മെസ്സേജ്സിലേക്ക് മാറ്റേണ്ടതാണ്</i></b>")
                 await asyncio.sleep(1800)
                 await m.delete()
                 await k.edit("<b>Your File/Video is successfully deleted!!!</b>")
